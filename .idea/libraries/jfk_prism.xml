@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jfk.prism">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JarExplorer/lib/jfk.prism.noarg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
