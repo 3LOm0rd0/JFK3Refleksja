@@ -19,8 +19,7 @@ public class EntryIndex
      */
     public ArrayList<?> getClassesInJar ( String jarName ) throws Exception {
         ClassLister.listFromJar(jarName);
-        //Prism prism=new Prism();
-        //prism.prism(jarName);
+       
         return ClassLister.listFromJar(jarName);
 
 
