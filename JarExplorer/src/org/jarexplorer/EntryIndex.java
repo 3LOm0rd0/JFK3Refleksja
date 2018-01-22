@@ -24,24 +24,5 @@ public class EntryIndex
         return ClassLister.listFromJar(jarName);
 
 
-        /*
-        Iterator<ClassInformation> values = indexMap.values().iterator();
-        ArrayList<ClassHolder> results  = new ArrayList<ClassHolder>();
-
-        while (values.hasNext())
-        {
-            ClassInformation classInfo = (ClassInformation)values.next();
-            if ( classInfo.getJarFileName().equals(jarName) ) {
-
-                results.add(classInfo);
-            }
-        }
-        Collections.sort(results, new Comparator<Object>()
-        {
-            public int compare(Object o1, Object o2)
-            {
-                return o1.toString().compareTo(o2.toString());
-            }
-        });*/
 }
 }

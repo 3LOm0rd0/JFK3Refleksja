@@ -55,7 +55,7 @@ public class ClassLister {
 
             }
         } catch (IOException exp) {
-            System.out.println("Berent mnie zlapal2");
+            System.out.println("Złapany");
         } finally {
             if (null != jarFile)
                 jarFile.close();

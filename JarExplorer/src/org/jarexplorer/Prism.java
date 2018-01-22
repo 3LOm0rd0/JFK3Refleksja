@@ -20,17 +20,17 @@ public class Prism {
 
         jfk.prism.Description description = (jfk.prism.Description) c.getAnnotation(jfk.prism.Description.class);
         System.out.println(description.description());
-        //okno.description.setTextArea(description.description());
+
 
 
         ICallable callable = (ICallable) c.newInstance();
         if (null == callable)
             return null;
-        //System.out.println(callable.Call("123", "345"));
+
 
         return new ClassHolder(callable, description, c.getName());
 
-        //okno.classInformationList.add(allInformations);
+
 
     }
 

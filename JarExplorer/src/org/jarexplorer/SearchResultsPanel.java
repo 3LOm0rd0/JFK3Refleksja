@@ -153,23 +153,7 @@ public class SearchResultsPanel extends JPanel
         try
         {
             Class<?> c = (Class<?>) resultList.getSelectedValue();
-            //int index = selectedValue.lastIndexOf(":");
-            //int index2 = selectedValue.lastIndexOf("/");
 
-
-            //String jarName = selectedValue.substring(0, index).trim();
-           // String resourceName = selectedValue.substring(index + 1).trim();
-
-            //System.out.println(jarName);
-
-         //ClassInformation classInfo = ClassInformation.createFully(jarName, resourceName);
-                //Prism prism= new Prism();
-                //prism.prism(jarName);
-                //String descript=prism.getDescript();
-                //ICallable call=prism.getCall();
-               // NewJFrame frame=new NewJFrame();
-               // System.out.println(descript);
-            //dialog.removeAll();
             if(dialog!=null)
             dialog.dispose();
             dialog=new JDialog();
